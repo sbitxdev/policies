@@ -1,0 +1,8 @@
+# **Software Development Lifecycle**
+
+* All features, enhancements, and defects/bugs must be recorded in a Github Issue or other designated issue tracking system associated with a specific repository in order to be considered for development cycles
+* On a regular basis, a sprint planning committee will be convened to select tasks recorded in Github Issues for assignment to a sprint.
+* Items to be addressed may take longer than a single sprint, and should be noted as such and assigned to specific sprints for development
+* As noted in the Approved Git | Github Workflow document, each sprint will be initiated with the creation of a new branch, named either 'development' or with a sprint-specific designation
+* If a feature, enhancement, or even a bug fix is identified as taking more than one sprint, an aptly-named branch will be created from the development branch.  Work specific to that feature/enhancement/bug will take place on that branch, with reasonable synchronization with the development branch over time.  At the very least, the feature/enhancement/bug branch will be synchronized with the main branch each time the development branch is released to production (i.e., the development branch is merged to the main branch).
+* While there may be some reasonable overlap, in time, between the end of the engineering phase of one sprint and the start of the next, sufficient time should be appropriated to allow for fixing bugs or addressing disconnects between implementation and specified functionality described in the Github Issue associated with said feature/enhancement/bug.
